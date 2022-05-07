@@ -1,3 +1,7 @@
+## Intro
+
+This is a full stack application. Feel free to use all, any, or none of it for your projects. If you do use it, please give credit :)
+
 ## Demo
 https://www.nickportfolio.cf/
 
@@ -25,6 +29,13 @@ npm i
 npm start
 ```
 
+## Deploy to Heroku
+```
+heroku login
+heroku create
+git push heroku main
+```
+After your application is up, copy your `.env` variables to heroku's config variables for your application.
 
 ## Credits
 ### Classic Perlin 3D Noise by Stefan Gustavson
