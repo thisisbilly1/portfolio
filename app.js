@@ -8,11 +8,9 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 import path, { dirname } from "path"
-import { fileURLToPath } from 'url';
+import { fileURLToPath } from 'url'
 
 export default () => {
-    console.log("pointed to front end:", process.env.FRONT_END)
-
     const app = express()
     const corsOptions = { origin: process.env.FRONT_END }
     app.use(cors(corsOptions))
@@ -23,14 +21,13 @@ export default () => {
     // add routes
     contactRoutes(app)
 
-
     // serve front end
     const __filename = fileURLToPath(import.meta.url);
     const __dirname = dirname(__filename);
-    app.use(express.static(path.join(__dirname, "./", "build")));
+    app.use(express.static(path.join(__dirname, "./front/", "build")));
 
     app.get(["/", "/web", "/game", "/contact"], (req, res) => {
-        res.sendFile(path.join(__dirname, "./front/", "build", "index.html"))
+        res.sendFile(path.join(__dirname, "./", "build", "index.html"))
     })
 
     return app
