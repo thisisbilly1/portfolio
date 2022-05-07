@@ -21,7 +21,7 @@ const Banner = () => {
         })
 
     }, [])
-
+    // <a href="https://github.com/thisisbilly1/portfoliowebsite" target="_blank" rel="noreferrer"><img className="social" src={CodeIcon} alt="Source Code"/></a>
     return (
         <div>
             <div className="home-banner">
@@ -32,9 +32,8 @@ const Banner = () => {
                     <h1>Nick Koerber</h1>
                     <h3 className="subtitle">Web Dev, Game Dev</h3>
                     <div className="socials">
-                        <a href="https://www.linkedin.com/in/nick-koerber-8a6954190/" target="_blank" rel="noreferrer"><img className="social" src={LinkedIn} alt="LinkedIn"/></a>
-                        <a href="https://github.com/thisisbilly1" target="_blank" rel="noreferrer"><img className="social" src={GitHub} alt="GitHub"/></a>
-                        <a href="https://github.com/thisisbilly1/portfoliowebsite" target="_blank" rel="noreferrer"><img className="social" src={CodeIcon} alt="Source Code"/></a>
+                        <a href="https://www.linkedin.com/in/nick-koerber-8a6954190/" target="_blank" rel="noreferrer"><img className="social" src={LinkedIn} alt="LinkedIn" /></a>
+                        <a href="https://github.com/thisisbilly1" target="_blank" rel="noreferrer"><img className="social" src={GitHub} alt="GitHub" /></a>
                     </div>
                 </div>
 
