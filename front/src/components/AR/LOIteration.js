@@ -12,21 +12,21 @@ const LOIteration = () => {
                     <Card.Body>
                         <Carousel>
                             <Carousel.Item>
-                                <img className="d-block w-100" src={Main}/>
+                                <img className="d-block w-100" src={Main} alt="Main poster for 2D AR" />
                                 <Carousel.Caption className="text-black">
                                     <h3>First Art Work Cover</h3>
                                 </Carousel.Caption>
                             </Carousel.Item>
 
                             <Carousel.Item>
-                                <img className="d-block w-100" src={deathworm}/>
+                                <img className="d-block w-100" src={deathworm} alt="Group Bossing" />
                                 <Carousel.Caption className="text-black">
                                     <h3>Group Bossing</h3>
                                 </Carousel.Caption>
                             </Carousel.Item>
 
                             <Carousel.Item>
-                                <img className="d-block w-100" src={LO}/>
+                                <img className="d-block w-100" src={LO} alt="Community selfie :)" />
                                 <Carousel.Caption className="text-black">
                                     <h3>Community</h3>
                                 </Carousel.Caption>
@@ -40,7 +40,7 @@ const LOIteration = () => {
             <Col xl>
                 <Card className="bg-dark text-white">
                     <Card.Body>
-                        <p>The first version of Adventure Road (then named Legends Online) was made using a <a target="_blank" href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#:~:text=The%20Transmission%20Control%20Protocol%20(TCP,the%20Internet%20Protocol%20(IP).&text=TCP%20is%20connection%2Doriented%2C%20and,before%20data%20can%20be%20sent.">TCP</a> server and client. These were made in Game Maker 8, by <a href="https://www.yoyogames.com/en/gamemaker" target="_blank">YoYoGames</a>.</p>
+                        <p>The first version of Adventure Road (then named Legends Online) was made using a <a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#:~:text=The%20Transmission%20Control%20Protocol%20(TCP,the%20Internet%20Protocol%20(IP).&text=TCP%20is%20connection%2Doriented%2C%20and,before%20data%20can%20be%20sent.">TCP</a> server and client. These were made in Game Maker 8, by <a href="https://www.yoyogames.com/en/gamemaker" target="_blank">YoYoGames</a>.</p>
                         <p>The server handled the game logic, the character saving, etc etc. The client rendering the world and handling inputs from players.</p>
                         <p>The game came with NPC combat, resource gathering, an economy, and a robust quest system. </p>
                     </Card.Body>

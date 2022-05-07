@@ -7,7 +7,7 @@ import { ShaderPass } from "./utils/postprocessing/ShaderPass.js"
 import { OutlinePass } from './utils/postprocessing/OutlinePass'
 
 export function createWorldBloom(container) {
-    var ctx = new Object()
+    var ctx = {}
 
     ctx.init = () => {
 

@@ -1,4 +1,4 @@
-export default () => {
+export const vertex = () => {
     return `
     varying vec2 vUv;
     varying float vDist;

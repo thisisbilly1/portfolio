@@ -21,27 +21,27 @@ const Home = () => {
 
                 <Row className="text-center">
                     <Col className="language-container">
-                        <img className="language" src={ReactIcon} />
+                        <img className="language" src={ReactIcon} alt="React" />
                         <div>React</div>
                     </Col>
                     <Col className="language-container">
-                        <img className="language" src={VueIcon} />
+                        <img className="language" src={VueIcon} alt="Vue" />
                         Vue
                     </Col>
                     <Col className="language-container">
-                        <img className="language" src={NodeIcon} />
+                        <img className="language" src={NodeIcon} alt="NodeJS" />
                         Node
                     </Col>
                     <Col className="language-container">
-                        <img className="language" src={PythonIcon} />
+                        <img className="language" src={PythonIcon} alt="Python" />
                         Python
                     </Col>
                     <Col className="language-container">
-                        <img className="language" src={DBIcon} />
+                        <img className="language" src={DBIcon} alt="SQL/ORM" />
                         SQL/ORM
                     </Col>
                     <Col className="language-container">
-                        <img className="language" src={UnityIcon} />
+                        <img className="language" src={UnityIcon} alt="Unity" />
                         Unity
                     </Col>
                 </Row>

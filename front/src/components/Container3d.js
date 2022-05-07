@@ -49,6 +49,8 @@ function Container3d({ objects, bloom = false, banner = false, onLoaded }) {
         return (() => {
             if (ctx.current) ctx.current.stop()
         })
+        // no awaits in useLayoutEffect, so we move the function out and disable this lint
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     const ChangeRotation = (e) => {

@@ -2,14 +2,12 @@ import * as THREE from 'three'
 
 import { EffectComposer } from './utils/postprocessing/EffectComposer.js'
 import { RenderPass } from './utils/postprocessing/RenderPass.js'
-import { UnrealBloomPass } from './utils/postprocessing/UnrealBloomPass.js'
-import { ShaderPass } from "./utils/postprocessing/ShaderPass.js"
 import { OutlinePass } from './utils/postprocessing/OutlinePass'
 
-import Stats from "stats-js"
+// import Stats from "stats-js"
 
 export function createWorld(container) {
-    var ctx = new Object()
+    var ctx = {}
 
     ctx.init = () => {
         ctx.animation_id = null;
