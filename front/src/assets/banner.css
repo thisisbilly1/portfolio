@@ -1,0 +1,47 @@
+.title-name{
+    text-align: center;
+    color:white;
+    padding-top: 10%;
+    font-weight: 400;
+    letter-spacing: 1rem;
+    font-size: 6rem;
+
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.title-name .subtitle{
+    letter-spacing: .5rem;
+}
+
+.home-banner{
+    width: 100%;
+    height: 600px;
+}
+
+
+.socials{
+    width:100%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.social{
+    width:25px;
+    color:white;
+    margin:10px;
+    cursor: pointer;
+    z-index: 3;
+    pointer-events:all;
+}
+
+@media only screen and (max-width: 500px) {
+    .title-name{
+        padding-top: 100px;
+    }
+}

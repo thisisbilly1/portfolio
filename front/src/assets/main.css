@@ -1,0 +1,119 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    background-color: #292929;
+    overflow-x: hidden;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.canvas-banner:active,
+.canvas-small:active {
+    cursor: grabbing;
+}
+
+.canvas-banner {
+    width: 100%;
+    height: 500px;
+    cursor: grab;
+    position: relative;
+}
+
+.canvas-small {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    cursor: grab;
+    position: relative;
+}
+
+.card {
+    background-color: #f7f7f7;
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.navbar-dark {
+    z-index: 1;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    border-bottom: 4px solid #73CCA8;
+    color: #73CCA8;
+}
+
+.navbar-dark .navbar-toggler {
+    margin-bottom: 0.5rem;
+    margin-left: 10px;
+}
+
+/*
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: blue;
+}
+*/
+.banner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered-loading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    pointer-events: none;
+}
+
+.centered-loading .progress {
+    width: 100px;
+}
+
+.orbit-controller {
+    display: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .orbit-controller {
+        display: block;
+    }
+
+    .canvas-banner,
+    .canvas-small {
+        pointer-events: none;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .canvas-small {
+        width: 100%
+    }
+}
