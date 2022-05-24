@@ -34,6 +34,7 @@ const Banner = () => {
                     <div className="socials">
                         <a href="https://www.linkedin.com/in/nick-koerber-8a6954190/" target="_blank" rel="noreferrer"><img className="social" src={LinkedIn} alt="LinkedIn" /></a>
                         <a href="https://github.com/thisisbilly1" target="_blank" rel="noreferrer"><img className="social" src={GitHub} alt="GitHub" /></a>
+                        <a href="https://github.com/thisisbilly1/portfoliowebsite" target="_blank" rel="noreferrer"><img className="social" src={CodeIcon} alt="Source Code" /></a>
                     </div>
                 </div>
 

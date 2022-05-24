@@ -1,15 +1,26 @@
 import { Navbar, Nav } from "react-bootstrap";
+import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+
+const NavLink = ({ to, children, ...props }) => {
+    const resolvedPath = useResolvedPath(to)
+    const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+    var className = "nav-link me-2"
+    if (isActive) className += " active"
+    return (
+        <Link to={to} className={className}>{children}</Link>
+    )
+}
 
 const NavBar = () => {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg" className="pb-0" fixed="top" style={{zIndex:2}}>
-            <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+        <Navbar bg="dark" variant="dark" expand="lg" className="pb-0" fixed="top" style={{ zIndex: 2 }}>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse>
                 <Nav className="m-auto">
-                    <Nav.Link className="me-2" href="/" active={window.location.pathname==="/"}>Home</Nav.Link>
-                    <Nav.Link className="me-2" href="/web" active={window.location.pathname==="/web"}>Web Dev</Nav.Link>
-                    <Nav.Link className="me-2" href="/game" active={window.location.pathname==="/game"}>Game Dev</Nav.Link>
-                    <Nav.Link href="/contact" active={window.location.pathname==="/contact"}>Contact</Nav.Link>
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/web">Web Dev</NavLink>
+                    <NavLink to="/game">Game Dev</NavLink>
+                    <NavLink to="/contact">Contact</NavLink>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
