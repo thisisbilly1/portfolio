@@ -1,0 +1,14 @@
+.skill-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.skill-name {
+    min-width: 150px;
+}
+
+.skill-progress {
+    width: 90%;
+}

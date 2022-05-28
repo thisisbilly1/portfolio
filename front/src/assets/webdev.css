@@ -1,8 +1,13 @@
-.job-description-title{
+.web-dev-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.job-description-title {
     font-style: italic;
 }
 
-.job-description-body{
+.job-description-body {
     margin-left: 10%;
     padding-right: 5%;
     min-width: 400px;
@@ -12,20 +17,21 @@
     flex-wrap: wrap;
 }
 
-.canvas-background{
+.canvas-background {
     position: absolute;
     top: 0;
     right: 0;
     height: 200vh;
     width: 50%;
-    z-index:-1;
+    z-index: -1;
 }
 
 @media only screen and (max-width: 600px) {
-    .job-description-body{
+    .job-description-body {
         min-width: 100%;
     }
-    .canvas-background{
-        width:100% !important;
+
+    .canvas-background {
+        width: 100% !important;
     }
 }

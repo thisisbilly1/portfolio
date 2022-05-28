@@ -53,6 +53,33 @@ body {
     z-index: 1;
 }
 
+/*
+.accordion-button::after {
+    transform: rotate(90deg);
+    content: '\276E';
+    background-image: none;
+    margin-top: 10px;
+    transition: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(-90deg);
+    content: '\276E';
+    background-image: none;
+    margin-top: -10px;
+    transition: none;
+}
+*/
+
+.accordion-item {
+    border: none;
+    margin-top: 5px;
+}
+
+.accordion-body {
+    background-color: #292929;
+}
+
 .navbar-dark {
     z-index: 1;
 }
