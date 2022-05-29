@@ -1,8 +1,8 @@
-.ar-title{
+.ar-title {
     font-size: xx-large;
     color: rgb(246, 228, 116);
     text-align: center;
     text-transform: uppercase;
     -webkit-text-stroke: 1px orange;
+    margin-bottom: 50px;
 }
-

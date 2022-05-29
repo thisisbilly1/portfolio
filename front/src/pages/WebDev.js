@@ -26,16 +26,19 @@ const ExperienceCard = ({ title, techUsed, children }) => {
 const WebDev = () => {
 
     return (
-        <div className="web-dev-container">
+        <>
             <SwordContainerBanner />
             <Skills />
-            <h1 className="ar-title">Web Development</h1>
+            <h1 className="ar-title">Professional Web Development</h1>
 
-            <Accordion defaultActiveKey="0" flush>
+            <Accordion defaultActiveKey="0" flush className="accordion-container">
 
                 <Accordion.Item eventKey="0">
                     <Accordion.Button className="bg-dark text-white">
-                        <h3>QsrSoft</h3>
+                        <div className="job-title-container">
+                            <h3>QsrSoft</h3>
+                            <div className="job-length">Feb 22 - Now</div>
+                        </div>
                     </Accordion.Button>
                     <Accordion.Body>
                         <Row>
@@ -60,7 +63,10 @@ const WebDev = () => {
 
                 <Accordion.Item eventKey="1">
                     <Accordion.Button className="bg-dark text-white">
-                        <h3>Afinity IT</h3>
+                        <div className="job-title-container">
+                            <h3>Afinity IT</h3>
+                            <div className="job-length">Nov 21 - Feb 22</div>
+                        </div>
                     </Accordion.Button>
                     <Accordion.Body>
                         <Row>
@@ -78,7 +84,10 @@ const WebDev = () => {
 
                 <Accordion.Item eventKey="2">
                     <Accordion.Button className="bg-dark text-white">
-                        <h3>Foxconn Industrial AI</h3>
+                        <div className="job-title-container">
+                            <h3>Foxconn IAI</h3>
+                            <div className="job-length">Dec 21 - Nov 21</div>
+                        </div>
                     </Accordion.Button>
                     <Accordion.Body>
                         <Row>
@@ -120,8 +129,11 @@ const WebDev = () => {
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="3">
-                    <Accordion.Button className="bg-dark text-white">
-                        <h3>Foxconn SIO</h3>
+                    <Accordion.Button className="bg-dark">
+                        <div className="job-title-container">
+                            <h3>Foxconn SIO</h3>
+                            <div className="job-length">June 19 - Dec 21</div>
+                        </div>
                     </Accordion.Button>
                     <Accordion.Body>
                         <Row>
@@ -170,7 +182,7 @@ const WebDev = () => {
                 </Accordion.Item>
             </Accordion>
 
-        </div>
+        </>
     )
 }
 

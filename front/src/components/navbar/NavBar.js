@@ -10,8 +10,14 @@ const NavBar = () => {
         const isActive = useMatch({ path: resolvedPath.pathname, end: true });
         var className = "nav-link me-2"
         if (isActive) className += " active"
+
+        const clickLink = () => {
+            setExpanded(false)
+            window.scrollTo(0, 0)
+        }
+
         return (
-            <Link to={to} className={className} onClick={() => setExpanded(false)}>{children}</Link>
+            <Link to={to} className={className} onClick={clickLink}>{children}</Link>
         )
     }
 

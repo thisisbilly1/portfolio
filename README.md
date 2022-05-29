@@ -1,6 +1,7 @@
 ## Intro
 
-This is a full stack application. Feel free to use all, any, or none of it for your projects. If you do use it, please give credit :)
+This is a full stack portfolio application. It takes advantage of Three.js and WebGL to make an interactive and engaging website.
+Feel free to use any of the code for your projects. Just give some credit!
 
 ## Demo
 https://www.nickportfolio.cf/

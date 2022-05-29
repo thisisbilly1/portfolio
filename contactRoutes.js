@@ -4,8 +4,8 @@ import validate from 'deep-email-validator'
 export default (app) => {
     //set up smtp
     var smtpTransport = nodemailer.createTransport({
-        name: "ggez.dev",
-        host: "smtp.hostinger.com",
+        name: process.env.EMAIL_HOST_NAME,
+        host: process.env.EMAIL_HOST,
         port: 465,
         auth: {
             user: process.env.EMAIL_ACCOUNT,

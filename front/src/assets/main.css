@@ -70,6 +70,9 @@ body {
     transition: none;
 }
 */
+.accordion-container {
+    padding-bottom: 100px;
+}
 
 .accordion-item {
     border: none;
@@ -140,6 +143,11 @@ body {
 
 
 @media only screen and (max-width: 500px) {
+    .accordion-body {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     .canvas-small {
         width: 100%
     }
