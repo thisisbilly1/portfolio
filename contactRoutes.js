@@ -4,12 +4,14 @@ import validate from 'deep-email-validator'
 export default (app) => {
     //set up smtp
     var smtpTransport = nodemailer.createTransport({
-        name: process.env.EMAIL_HOST_NAME,
-        host: process.env.EMAIL_HOST,
-        port: 465,
+        service: 'gmail',
         auth: {
+            type: 'OAuth2',
             user: process.env.EMAIL_ACCOUNT,
             pass: process.env.EMAIL_PASSWORD,
+            clientId: process.env.OAUTH_CLIENTID,
+            clientSecret: process.env.OAUTH_CLIENT_SECRET,
+            refreshToken: process.env.OAUTH_REFRESH_TOKEN,
         },
     });
     app.post("/contact", async (req, res) => {
