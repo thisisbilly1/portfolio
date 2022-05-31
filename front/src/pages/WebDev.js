@@ -69,7 +69,7 @@ const WebDev = () => {
                         </div>
                     </Accordion.Button>
                     <Accordion.Body>
-                        <Row>
+                        <Row className="justify-content-center">
                             <Col md={6}>
                                 <ExperienceCard title="Tactacam - Cellular Camera" techUsed={['Vue.js', 'React Native', 'Node.js', 'AWS S3', 'AWS Cognito', 'Heroku']}>
                                     <p>
@@ -162,7 +162,7 @@ const WebDev = () => {
                         <h3>Personal</h3>
                     </Accordion.Button>
                     <Accordion.Body>
-                        <Row>
+                        <Row className="justify-content-center">
                             <Col md={6}>
                                 <ExperienceCard title="Nao Robot Interface and Controller" techUsed={['Vue.js', 'Python', 'Flask', 'OpenCV', 'TensorFlow']}>
                                     <p>My brother and I created an out-of-the-box application for the Nao robot. When you first purchase this robot, it comes with nothing. With our application, you could connect to the robot, and would be presented a web app. With this, you could easily control the robot with no programming needed.</p>
