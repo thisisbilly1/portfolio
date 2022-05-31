@@ -31,8 +31,8 @@ const ARIteration = () => {
                         <p>After succesfully building a community around a 2D version, we started making a 3D version of Legends Online. This version is by far the most complex and most iterated version of the game.</p>
                         <p>We migrated all the old systems over. This included the questing system, inventory, combat, bosses, everything.</p>
                         <p>The server for this one was written in Python. The client was written in Game Maker Studio.</p>
-                        <p>Character modelling and animation were made in Blender. For the collisions both in the client and server, <a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Octree">Octrees</a> were used</p>
-                        <p>New work has been started on a new server programmed in Node.JS and instead of using TCP, it now uses <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API" target="_blank" rel="noreferrer">WebSocket</a>.</p>
+                        <p>Character modelling and animation were made in Blender. For the collisions both in the client and server, Octrees were used</p>
+                        <p>New work has been started on a new server programmed in Node.JS and instead of using TCP, it now uses WebSocket.</p>
                     </Card.Body>
                 </Card>
             </Col>

@@ -14,13 +14,15 @@ const Skill = ({ name, target, variant, startDate }) => {
 
     useEffect(() => {
         let interval;
-        interval = setInterval(() => {
-            setCurrentTarget((currentTarget) => currentTarget = Math.round(currentTarget + endTarget / 15))
-            if (currentTarget >= endTarget) {
-                clearInterval(interval)
-                setCurrentTarget(endTarget)
-            }
-        }, 25)
+        if (currentTarget < endTarget) {
+            interval = setInterval(() => {
+                setCurrentTarget((currentTarget) => currentTarget = Math.round(currentTarget + endTarget / 15))
+                if (currentTarget >= endTarget) {
+                    clearInterval(interval)
+                    setCurrentTarget(endTarget)
+                }
+            }, 25)
+        } else setCurrentTarget(endTarget)
         return () => {
             clearInterval(interval)
         }

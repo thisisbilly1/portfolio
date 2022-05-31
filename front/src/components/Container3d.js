@@ -4,7 +4,7 @@ import { createWorldBloom } from "./createWorldBloom"
 import { Form, ProgressBar } from "react-bootstrap"
 import addOrbitControls from "./controls/orbit"
 
-function Container3d({ objects, bloom = false, banner = false, onLoaded }) {
+function Container3d({ objects = [], bloom = false, banner = false, onLoaded, customController = false }) {
     const background = useRef()
     const ctx = useRef()
     const [prevAngle, setPrevAngle] = useState(180)
@@ -25,7 +25,9 @@ function Container3d({ objects, bloom = false, banner = false, onLoaded }) {
         }
         else ctx.current = createWorld(background.current).init()
 
-        addOrbitControls(ctx.current)
+        if (!customController) {
+            addOrbitControls(ctx.current)
+        }
 
         for (const obj of objects) {
             await obj.load(ctx.current, onProgress)
@@ -67,9 +69,11 @@ function Container3d({ objects, bloom = false, banner = false, onLoaded }) {
                     </div>
                 }
             </div>
-            <div className="orbit-controller">
-                <Form.Range onChange={ChangeRotation} max="360" min="0"></Form.Range>
-            </div>
+            {!customController &&
+                <div className="orbit-controller">
+                    <Form.Range onChange={ChangeRotation} max="360" min="0"></Form.Range>
+                </div>
+            }
         </div>
     );
 }

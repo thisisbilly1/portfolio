@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Card, Row, Col, Nav, Navbar } from "react-bootstrap"
 import RockMonsterContainer from "./RockMonster/RockMonsterContainer"
 //import SwordContainer from "../frontend/SwordContainer"
@@ -8,12 +8,21 @@ import LOIteration from "./LOIteration"
 import ARIteration from "./ARIteration"
 
 
-const AR = () => {
+const AR = ({ should3DRender }) => {
     const [iteration, setIteration] = useState(0)
+    const [shouldRender, SetshouldRender] = useState(false)
+
+    useEffect(() => {
+        if (should3DRender) {
+            setTimeout(() => {
+                SetshouldRender(true)
+            }, 500)
+        } else SetshouldRender(false)
+    }, [should3DRender])
+
 
     return (
         <>
-            <h1 className="ar-title">Adventure Road</h1>
             <Row className="justify-content-center">
                 <Col>
                     <Card className="bg-dark text-white">
@@ -25,11 +34,11 @@ const AR = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col md="auto">
-                    <RockMonsterContainer/>
+                <Col xl>
+                    {shouldRender && <RockMonsterContainer />}
                 </Col>
             </Row>
-            
+
             <h4 className="text-center text-white mt-3 mb-3">Adventure Road Versions</h4>
 
             <Navbar bg="dark" variant="dark" expand="lg" className="p-2 pb-0 w-100">
@@ -37,22 +46,22 @@ const AR = () => {
                     <Row className="w-100">
                         <Col>
                             <Nav.Item>
-                                <Nav.Link active={iteration === 0} onClick={e=>setIteration(0)}>2D Version</Nav.Link>
+                                <Nav.Link active={iteration === 0} onClick={e => setIteration(0)}>2D Version</Nav.Link>
                             </Nav.Item>
                         </Col>
                         <Col>
                             <Nav.Item>
-                                <Nav.Link active={iteration === 1} onClick={e=>setIteration(1)}>3D Version</Nav.Link>
+                                <Nav.Link active={iteration === 1} onClick={e => setIteration(1)}>3D Version</Nav.Link>
                             </Nav.Item>
                         </Col>
                     </Row>
-                    
-                    
+
+
                 </Nav>
             </Navbar>
 
-            {iteration === 0 && <LOIteration/>}
-            {iteration === 1 && <ARIteration/>}
+            {iteration === 0 && <LOIteration />}
+            {iteration === 1 && <ARIteration />}
         </>
     )
 }

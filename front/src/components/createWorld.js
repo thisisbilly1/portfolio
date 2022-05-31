@@ -24,16 +24,16 @@ export function createWorld(container) {
         ctx.renderer.setPixelRatio(.6)
         ctx.renderer.setSize(ctx.container.clientWidth, ctx.container.clientHeight)
 
-        ctx.camera = new THREE.PerspectiveCamera(60, ctx.container.clientWidth / ctx.container.clientHeight, 1, 10000)
+        ctx.camera = new THREE.PerspectiveCamera(60, ctx.container.clientWidth / ctx.container.clientHeight, 0.01, 10000)
         ctx.camera.position.set(0, 0, -55)
 
 
         //lighting
-        const ambientLight = new THREE.AmbientLight(0xffffff);
-        ctx.scene.add(ambientLight);
+        ctx.ambientLight = new THREE.AmbientLight(0xffffff);
+        ctx.scene.add(ctx.ambientLight);
 
-        const pointLight = new THREE.PointLight(0xffffff, 0.8);
-        ctx.camera.add(pointLight);
+        ctx.pointLight = new THREE.PointLight(0xffffff, 0.8);
+        ctx.camera.add(ctx.pointLight);
         ctx.scene.add(ctx.camera);
 
         ctx.clock = new THREE.Clock();

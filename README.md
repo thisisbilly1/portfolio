@@ -16,8 +16,8 @@ https://www.nickportfolio.cf/
 
 ## Run back-end locally
 Copy the `.env.example` and create your own `.env` file
+follow these steps to set up your gmail: https://www.freecodecamp.org/news/use-nodemailer-to-send-emails-from-your-node-js-server/
 
-Note that Gmail hates being used for automated emails.
 ```
 npm i
 npm start

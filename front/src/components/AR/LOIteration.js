@@ -40,7 +40,7 @@ const LOIteration = () => {
             <Col xl>
                 <Card className="bg-dark text-white">
                     <Card.Body>
-                        <p>The first version of Adventure Road (then named Legends Online) was made using a <a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#:~:text=The%20Transmission%20Control%20Protocol%20(TCP,the%20Internet%20Protocol%20(IP).&text=TCP%20is%20connection%2Doriented%2C%20and,before%20data%20can%20be%20sent.">TCP</a> server and client. These were made in Game Maker 8, by <a href="https://www.yoyogames.com/en/gamemaker" target="_blank">YoYoGames</a>.</p>
+                        <p>The first version of Adventure Road (then named Legends Online) was made using a TCP server and client. These were made in Game Maker 8, by YoYoGames.</p>
                         <p>The server handled the game logic, the character saving, etc etc. The client rendering the world and handling inputs from players.</p>
                         <p>The game came with NPC combat, resource gathering, an economy, and a robust quest system. </p>
                     </Card.Body>
