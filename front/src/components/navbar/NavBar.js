@@ -22,7 +22,7 @@ const NavBar = () => {
     }
 
     return (
-        <Navbar bg="dark" variant="dark" expand="lg" className="pb-0" fixed="top" style={{ zIndex: 2 }} expanded={expanded}>
+        <Navbar bg="dark" variant="dark" expand="lg" className="pb-0" fixed="top" style={{ zIndex: 5 }} expanded={expanded}>
             <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
             <Navbar.Collapse>
                 <Nav className="m-auto">
