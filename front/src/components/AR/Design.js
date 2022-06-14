@@ -21,7 +21,7 @@ const Design = ({ should3DRender }) => {
                     {shouldRender && <DeathWormContainer />}
                 </Col>
                 <Col>
-                    <Card className="bg-dark text-white">
+                    <Card>
                         <Card.Body>
                             <p><strong>Experience: </strong>To give the player a meaningful experience, the games that I make tell a story. This gives the games direction and meaning, other than game play.</p>
 

@@ -37,7 +37,7 @@ const Contact = () => {
 
     if (sent) {
         return (
-            <Card style={{ maxWidth: "30rem", marginTop: "100px" }} className="bg-dark text-white text-center">
+            <Card style={{ maxWidth: "30rem", marginTop: "100px" }} className="text-center">
                 <Card.Title>Success!</Card.Title>
                 <Card.Body>Please give 3-5 business days for a response.</Card.Body>
             </Card>
@@ -46,14 +46,14 @@ const Contact = () => {
 
     if (error) {
         return (
-            <Card style={{ maxWidth: "30rem", marginTop: "100px" }} className="bg-dark text-white text-center">
+            <Card style={{ maxWidth: "30rem", marginTop: "100px" }} className="text-center">
                 <Card.Title>There was an error contacting me!</Card.Title>
                 <Card.Body>Try reaching out on social media instead!</Card.Body>
             </Card>
         )
     }
     return (
-        <Card style={{ maxWidth: "30rem", marginTop: "100px" }} className="bg-dark text-white">
+        <Card style={{ maxWidth: "30rem", marginTop: "100px" }}>
             <Card.Title>Contact Me</Card.Title>
             <Form onSubmit={submit} noValidate validated={validated}>
                 <Form.Group>

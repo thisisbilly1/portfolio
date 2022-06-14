@@ -8,7 +8,7 @@ const LOIteration = () => {
     return (
         <Row>
             <Col xl>
-                <Card className="bg-dark text-white">
+                <Card>
                     <Card.Body>
                         <Carousel>
                             <Carousel.Item>
@@ -38,7 +38,7 @@ const LOIteration = () => {
                 </Card>
             </Col>
             <Col xl>
-                <Card className="bg-dark text-white">
+                <Card>
                     <Card.Body>
                         <p>The first version of Adventure Road (then named Legends Online) was made using a TCP server and client. These were made in Game Maker 8, by YoYoGames.</p>
                         <p>The server handled the game logic, the character saving, etc etc. The client rendering the world and handling inputs from players.</p>

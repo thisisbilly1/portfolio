@@ -7,7 +7,7 @@ const ARIteration = () => {
     return (
         <Row>
             <Col xl>
-                <Card className="bg-dark text-white">
+                <Card>
                     <Card.Body>
                         <Carousel>
                             <Carousel.Item>
@@ -26,7 +26,7 @@ const ARIteration = () => {
                 </Card>
             </Col>
             <Col xl>
-                <Card className="bg-dark text-white">
+                <Card>
                     <Card.Body>
                         <p>After succesfully building a community around a 2D version, we started making a 3D version of Legends Online. This version is by far the most complex and most iterated version of the game.</p>
                         <p>We migrated all the old systems over. This included the questing system, inventory, combat, bosses, everything.</p>

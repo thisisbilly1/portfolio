@@ -15,9 +15,9 @@ const GameDev = () => {
             <DragonFightContainer />
 
             <h1 className="ar-title">Game Development</h1>
-            <Accordion defaultActiveKey={String(expanded)} flush>
+            <Accordion defaultActiveKey={String(expanded)} flush className="accordion-container">
                 <Accordion.Item eventKey="0">
-                    <Accordion.Button className="bg-dark text-white" onClick={() => setExpanded(0)}>
+                    <Accordion.Button onClick={() => setExpanded(0)}>
                         <h3>Tech Used</h3>
                     </Accordion.Button>
                     <Accordion.Body>
@@ -26,7 +26,7 @@ const GameDev = () => {
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="1">
-                    <Accordion.Button className="bg-dark text-white" onClick={() => setExpanded(1)}>
+                    <Accordion.Button onClick={() => setExpanded(1)}>
                         <h3>Design</h3>
                     </Accordion.Button>
                     <Accordion.Body>
@@ -35,7 +35,7 @@ const GameDev = () => {
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="2">
-                    <Accordion.Button className="bg-dark text-white" onClick={() => setExpanded(2)}>
+                    <Accordion.Button onClick={() => setExpanded(2)}>
                         <h3>Adventure Road (MMORPG)</h3>
                     </Accordion.Button>
                     <Accordion.Body>
@@ -44,7 +44,7 @@ const GameDev = () => {
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="3">
-                    <Accordion.Button className="bg-dark text-white" onClick={() => setExpanded(3)}>
+                    <Accordion.Button onClick={() => setExpanded(3)}>
                         <h3>Game Jams</h3>
                     </Accordion.Button>
                     <Accordion.Body>

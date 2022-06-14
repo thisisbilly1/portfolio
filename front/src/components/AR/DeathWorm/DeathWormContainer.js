@@ -40,7 +40,7 @@ const DeathWormContainer = () => {
     }
 
     return (
-        <Card className="bg-dark">
+        <Card>
             <Container3d objects={[deathworm]} onLoaded={onLoaded} customController />
         </Card>
     )

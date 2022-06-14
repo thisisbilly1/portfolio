@@ -42,7 +42,7 @@ const Skill = ({ name, target, variant, startDate }) => {
 
 const Skills = () => {
     return (
-        <Card className="bg-dark text-white">
+        <Card>
             <Card.Title className="text-center">Web Development Experience Summary</Card.Title>
             <Row>
                 <Col xl>

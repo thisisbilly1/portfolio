@@ -25,7 +25,7 @@ const AR = ({ should3DRender }) => {
         <>
             <Row className="justify-content-center">
                 <Col>
-                    <Card className="bg-dark text-white">
+                    <Card>
                         <Card.Body>
                             <Card.Title>Story</Card.Title>
                             <p>Adventure Road is an MMORPG that my brother and I imagined when we were still in high school. Inspired by games like Blizzard's WOW, Dungeons and Dragons, we were determined to make our own MMORPG.</p>
@@ -39,9 +39,9 @@ const AR = ({ should3DRender }) => {
                 </Col>
             </Row>
 
-            <h4 className="text-center text-white mt-3 mb-3">Adventure Road Versions</h4>
+            <h4 className="text-center mt-3 mb-3">Adventure Road Versions</h4>
 
-            <Navbar bg="dark" variant="dark" expand="lg" className="p-2 pb-0 w-100">
+            <Navbar expand="lg" className="p-2 pb-0 w-100">
                 <Nav className="w-100">
                     <Row className="w-100">
                         <Col>

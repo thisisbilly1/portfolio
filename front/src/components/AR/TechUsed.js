@@ -5,7 +5,7 @@ const TechUsed = () => {
         <>
             <Row className="justify-content-center">
                 <Col md={6}>
-                    <Card className="bg-dark text-white">
+                    <Card>
                         <Card.Body>
                             <p><strong>Game Engines: </strong> I have used Unity, Game Maker, and have created my own game engines from scratch for making games.</p>
                             <p><strong>Languages: </strong>OpenGL Shader Language (GLSL), JavaScript, C#, Python, C++</p>
