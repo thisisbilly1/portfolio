@@ -1,9 +1,8 @@
 {
-  "hompage": "http://thisisbilly1.github.io/portfolio",
+  "homepage": "http://thisisbilly1.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
