@@ -45,7 +45,7 @@ const NavBar = () => {
                     <NavLink to="/">Home</NavLink>
                     <NavLink to="/web">Web Dev</NavLink>
                     <NavLink to="/game">Game Dev</NavLink>
-                    <NavLink to="/contact">Contact</NavLink>
+                    {/* <NavLink to="/contact">Contact</NavLink> */}
                 </Nav>
             </Navbar.Collapse>
             <div className="darkModeToggle" onClick={() => setDarkMode(() => { if (darkMode) { return false } return true })}>

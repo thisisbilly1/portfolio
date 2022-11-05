@@ -2,7 +2,6 @@ import { Container } from "react-bootstrap";
 import NavBar from "./components/navbar/NavBar";
 import { Routes, Route } from "react-router";
 
-import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import WebDev from "./pages/WebDev";
 import GameDev from "./pages/GameDev";
@@ -18,7 +17,6 @@ function App() {
           <Route exact path={"/"} element={<Home />} />
           <Route exact path={"/web"} element={<WebDev />} />
           <Route exact path={"/game"} element={<GameDev />} />
-          <Route exact path={"/contact"} element={<Contact />} />
         </Routes>
       </Container>
 
