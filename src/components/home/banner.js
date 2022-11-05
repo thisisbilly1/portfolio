@@ -23,7 +23,7 @@ const Banner = () => {
         })
 
     }, [])
-    // <a href="https://github.com/thisisbilly1/portfoliowebsite" target="_blank" rel="noreferrer"><img className="social" src={CodeIcon} alt="Source Code"/></a>
+
     return (
         <div>
             <div className="home-banner text-white">
@@ -36,7 +36,7 @@ const Banner = () => {
                     <div className="socials text-white">
                         <a href="https://www.linkedin.com/in/nick-koerber-8a6954190/" target="_blank" rel="noreferrer"><LinkedInLogo className="social text-white" /></a>
                         <a href="https://github.com/thisisbilly1" target="_blank" rel="noreferrer"><GitHub className="social text-white" /></a>
-                        <a href="https://github.com/thisisbilly1/portfoliowebsite" target="_blank" rel="noreferrer"><CodeIcon className="social text-white" /></a>
+                        <a href="https://github.com/thisisbilly1/portfolio" target="_blank" rel="noreferrer"><CodeIcon className="social text-white" /></a>
                     </div>
                 </div>
             </div>
