@@ -46,9 +46,10 @@ export function Nodes({ children }) {
   )
 }
 
-export const Node = forwardRef(({ color = 'black', name, connectedTo = [], position = [0, 0, 0], parent, ...props }, ref) => {
+export const Node = forwardRef(({ color = 'black', name, connectedTo = [], position = [0, 0, 0], parent, setEnableControls, ...props }, ref) => {
   const set = useContext(context)
   const { size, camera } = useThree()
+  console.log(position.map(i => i * size.width))
   const [pos, setPos] = useState(() => new THREE.Vector3(...position))
   const state = useMemo(() => ({ position: pos, connectedTo }), [pos, connectedTo])
 
@@ -64,9 +65,9 @@ export const Node = forwardRef(({ color = 'black', name, connectedTo = [], posit
   useEffect(() => void (document.body.style.cursor = hovered ? 'grab' : 'auto'), [hovered])
   
   const bind = useDrag(({ down, xy: [x, y], tap }) => {
+    setEnableControls(!down)
     const { top, left } = parent.current.getBoundingClientRect()
     if (tap){
-      console.log([x,y], top, left )
       setSelected(prev => !prev)
     } else {
       document.body.style.cursor = down ? 'grabbing' : 'grab'
