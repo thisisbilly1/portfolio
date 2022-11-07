@@ -38,7 +38,7 @@ const NavBar = () => {
     }, [darkMode]);
 
     return (
-        <Navbar expand="lg" fixed="top" style={{ zIndex: 5 }} expanded={expanded}>
+        <Navbar expand="lg" fixed="top" style={{ zIndex: 5 }} expanded={expanded} variant={darkMode?"dark":"light"}>
             <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
             <Navbar.Collapse>
                 <Nav className="m-auto">

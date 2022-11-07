@@ -10,7 +10,7 @@ const Skill = ({ name, target, variant, startDate }) => {
     const dateStart = (startDate ? startDate : new Date('2019-01-01')).getTime()
     const today = new Date().getTime();
     const age = (today - dateStart) / (365 * 24 * 60 * 60 * 1000);
-    const years = Math.round(age * 100) / 100;
+    const years = Math.ceil(age * 10) / 10;
 
     useEffect(() => {
         let interval;
@@ -43,7 +43,7 @@ const Skill = ({ name, target, variant, startDate }) => {
 const Skills = () => {
     return (
         <Card>
-            <Card.Title className="text-center">Web Development Experience Summary</Card.Title>
+            <Card.Title className="text-center">Web Dev Summary</Card.Title>
             <Row>
                 <Col xl>
                     <Skill name="React" target={85} variant="info" startDate={new Date('2020-01-01')} />

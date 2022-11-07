@@ -1,6 +1,6 @@
 import { Card, Row, Col, Accordion } from "react-bootstrap"
 import SwordContainerBanner from "../components/frontend/SwordContainerBanner"
-import Skills from "../components/Skills"
+import SkillTree from "../components/SkillTree"
 import "../assets/webdev.css"
 
 const ExperienceCard = ({ title, techUsed, children }) => {
@@ -28,7 +28,7 @@ const WebDev = () => {
     return (
         <>
             <SwordContainerBanner />
-            <Skills />
+            <SkillTree />
             <h1 className="ar-title">Professional Web Development</h1>
 
             <Accordion defaultActiveKey="0" flush className="accordion-container">

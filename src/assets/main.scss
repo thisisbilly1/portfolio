@@ -77,12 +77,12 @@ body {
 
         .nav-link {
             color: var(--bs-dark);
-        }
 
-        .nav-link.active,
-        .nav-link:hover {
-            border-bottom: 4px solid #73CCA8;
-            color: var(--bs-dark);
+            &.active,
+            &:hover {
+                border-bottom: 4px solid #73CCA8;
+                color: var(--bs-dark);
+            }
         }
     }
 
@@ -90,12 +90,10 @@ body {
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
         margin-left: 10px;
-        border-color: var(--bs-dark);
-        color: var(--bs-dark);
-    }
 
-    .navbar-toggler:focus {
-        box-shadow: 0 0 0 0.1rem var(--bs-dark);
+        &:focus {
+            box-shadow: 0 0 0 0.1rem var(--bs-dark);
+        }
     }
 }
 

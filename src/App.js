@@ -27,8 +27,9 @@ function App() {
         bottom: 0,
         right: 0,
         left: 0,
-        opacity: 0.5,
-        pointerEvents: "none"
+        opacity: 0.6,
+        pointerEvents: "none",
+        backgroundSize: ".2rem .2rem",
       }} />
     </div>
   );
