@@ -43,7 +43,7 @@ const NavBar = () => {
             <Navbar.Collapse>
                 <Nav className="m-auto">
                     <NavLink to="/">Home</NavLink>
-                    <NavLink to="/web">Web Dev</NavLink>
+                    <NavLink to="/prof">Professional Exp</NavLink>
                     <NavLink to="/game">Game Dev</NavLink>
                     {/* <NavLink to="/contact">Contact</NavLink> */}
                 </Nav>

@@ -15,7 +15,7 @@ function App() {
       <Container className="content">
         <Routes>
           <Route exact path={"/"} element={<Home />} />
-          <Route exact path={"/web"} element={<WebDev />} />
+          <Route exact path={"/prof"} element={<WebDev />} />
           <Route exact path={"/game"} element={<GameDev />} />
         </Routes>
       </Container>

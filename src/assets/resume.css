@@ -1,0 +1,331 @@
+.resume {
+  --white: #fff;
+  --black: #000;
+  --monochrome-5: #fafafa;
+  --monochrome-10: #f5f5f5;
+  --monochrome-20: #e5e5e5;
+  --monochrome-30: #d4d4d4;
+  --monochrome-40: #a3a3a3;
+  --monochrome-50: #737373;
+  --monochrome-60: #525252;
+  --monochrome-70: #404040;
+  --monochrome-80: #262626;
+  --monochrome-90: #171717;
+  --neutral-5: #fafafa;
+  --neutral-10: #f4f4f5;
+  --neutral-20: #e4e4e7;
+  --neutral-30: #d4d4d8;
+  --neutral-40: #a1a1aa;
+  --neutral-50: #71717a;
+  --neutral-60: #52525b;
+  --neutral-70: #3f3f46;
+  --neutral-80: #27272a;
+  --neutral-90: #18181b;
+  --red-5: #fef2f2;
+  --red-10: #fee2e2;
+  --red-20: #fecaca;
+  --red-30: #fca5a5;
+  --red-40: #f87171;
+  --red-50: #ef4444;
+  --red-60: #dc2626;
+  --red-70: #b91c1c;
+  --red-80: #991b1b;
+  --red-90: #7f1d1d;
+  --orange-5: #fff7ed;
+  --orange-10: #ffedd5;
+  --orange-20: #fed7aa;
+  --orange-30: #fdba74;
+  --orange-40: #fb923c;
+  --orange-50: #f97316;
+  --orange-60: #ea580c;
+  --orange-70: #c2410c;
+  --orange-80: #9a3412;
+  --orange-90: #7c2d12;
+  --amber-5: #fffbeb;
+  --amber-10: #fef3c7;
+  --amber-20: #fde68a;
+  --amber-30: #fcd34d;
+  --amber-40: #fbbf24;
+  --amber-50: #f59e0b;
+  --amber-60: #d97706;
+  --amber-70: #b45309;
+  --amber-80: #92400e;
+  --amber-90: #78350f;
+  --yellow-5: #fefce8;
+  --yellow-10: #fef9c3;
+  --yellow-20: #fef08a;
+  --yellow-30: #fde047;
+  --yellow-40: #facc15;
+  --yellow-50: #eab308;
+  --yellow-60: #ca8a04;
+  --yellow-70: #a16207;
+  --yellow-80: #854d0e;
+  --yellow-90: #713f12;
+  --lime-5: #f7fee7;
+  --lime-10: #ecfccb;
+  --lime-20: #d9f99d;
+  --lime-30: #bef264;
+  --lime-40: #a3e635;
+  --lime-50: #84cc16;
+  --lime-60: #65a30d;
+  --lime-70: #4d7c0f;
+  --lime-80: #3f6212;
+  --lime-90: #365314;
+  --green-5: #f0fdf4;
+  --green-10: #dcfce7;
+  --green-20: #bbf7d0;
+  --green-30: #86efac;
+  --green-40: #4ade80;
+  --green-50: #22c55e;
+  --green-60: #16a34a;
+  --green-70: #15803d;
+  --green-80: #166534;
+  --green-90: #14532d;
+  --emerald-5: #ecfdf5;
+  --emerald-10: #d1fae5;
+  --emerald-20: #a7f3d0;
+  --emerald-30: #6ee7b7;
+  --emerald-40: #34d399;
+  --emerald-50: #10b981;
+  --emerald-60: #059669;
+  --emerald-70: #047857;
+  --emerald-80: #065f46;
+  --emerald-90: #064e3b;
+  --teal-5: #f0fdfa;
+  --teal-10: #ccfbf1;
+  --teal-20: #99f6e4;
+  --teal-30: #5eead4;
+  --teal-40: #2dd4bf;
+  --teal-50: #14b8a6;
+  --teal-60: #0d9488;
+  --teal-70: #0f766e;
+  --teal-80: #115e59;
+  --teal-90: #134e4a;
+  --cyan-5: #ecfeff;
+  --cyan-10: #cffafe;
+  --cyan-20: #a5f3fc;
+  --cyan-30: #67e8f9;
+  --cyan-40: #22d3ee;
+  --cyan-50: #06b6d4;
+  --cyan-60: #0891b2;
+  --cyan-70: #0e7490;
+  --cyan-80: #155e75;
+  --cyan-90: #164e63;
+  --sky-5: #f0f9ff;
+  --sky-10: #e0f2fe;
+  --sky-20: #bae6fd;
+  --sky-30: #7dd3fc;
+  --sky-40: #38bdf8;
+  --sky-50: #0ea5e9;
+  --sky-60: #0284c7;
+  --sky-70: #0369a1;
+  --sky-80: #075985;
+  --sky-90: #0c4a6e;
+  --blue-5: #eff6ff;
+  --blue-10: #dbeafe;
+  --blue-20: #bfdbfe;
+  --blue-30: #93c5fd;
+  --blue-40: #60a5fa;
+  --blue-50: #3b82f6;
+  --blue-60: #2563eb;
+  --blue-70: #1d4ed8;
+  --blue-80: #1e40af;
+  --blue-90: #1e3a8a;
+  --indigo-5: #eef2ff;
+  --indigo-10: #e0e7ff;
+  --indigo-20: #c7d2fe;
+  --indigo-30: #a5b4fc;
+  --indigo-40: #818cf8;
+  --indigo-50: #6366f1;
+  --indigo-60: #4f46e5;
+  --indigo-70: #4338ca;
+  --indigo-80: #3730a3;
+  --indigo-90: #312e81;
+  --violet-5: #f5f3ff;
+  --violet-10: #ede9fe;
+  --violet-20: #ddd6fe;
+  --violet-30: #c4b5fd;
+  --violet-40: #a78bfa;
+  --violet-50: #8b5cf6;
+  --violet-60: #7c3aed;
+  --violet-70: #6d28d9;
+  --violet-80: #5b21b6;
+  --violet-90: #4c1d95;
+  --purple-5: #faf5ff;
+  --purple-10: #f3e8ff;
+  --purple-20: #e9d5ff;
+  --purple-30: #d8b4fe;
+  --purple-40: #c084fc;
+  --purple-50: #a855f7;
+  --purple-60: #9333ea;
+  --purple-70: #7e22ce;
+  --purple-80: #6b21a8;
+  --purple-90: #581c87;
+  --fuchsia-5: #fdf4ff;
+  --fuchsia-10: #fae8ff;
+  --fuchsia-20: #f5d0fe;
+  --fuchsia-30: #f0abfc;
+  --fuchsia-40: #e879f9;
+  --fuchsia-50: #d946ef;
+  --fuchsia-60: #c026d3;
+  --fuchsia-70: #a21caf;
+  --fuchsia-80: #86198f;
+  --fuchsia-90: #701a75;
+  --pink-5: #fdf2f8;
+  --pink-10: #fce7f3;
+  --pink-20: #fbcfe8;
+  --pink-30: #f9a8d4;
+  --pink-40: #f472b6;
+  --pink-50: #ec4899;
+  --pink-60: #db2777;
+  --pink-70: #be185d;
+  --pink-80: #9d174d;
+  --pink-90: #831843;
+  --rose-5: #fff1f2;
+  --rose-10: #ffe4e6;
+  --rose-20: #fecdd3;
+  --rose-30: #fda4af;
+  --rose-40: #fb7185;
+  --rose-50: #f43f5e;
+  --rose-60: #e11d48;
+  --rose-70: #be123c;
+  --rose-80: #9f1239;
+  --rose-90: #881337;
+
+  /* font: 400 14px / 1.5 system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif; */
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  box-sizing: border-box;
+
+
+  --color-background: var(--white);
+  --color-background-alt: var(--rose-90);
+  --color-foreground: var(--monochrome-90);
+  --color-foreground-alt: var(--white);
+  --color-neutral: var(--neutral-50);
+  --color-primary: var(--rose-60);
+  --color-secondary: var(--rose-30);
+  --density-factor: 1.1;
+  --scale-factor: 1.1;
+
+  /* padding: 30px 44px 46px 44px; */
+  margin: auto;
+
+  --density-value: var(--density-factor, 1);
+  --scale-value: var(--scale-factor, 1);
+
+  line-height: calc(1.45 * var(--density-value));
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: calc(24px * var(--density-value));
+}
+
+.contacts {
+  padding-top: calc(9px * var(--density-value));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: calc(4px * var(--density-value));
+  width: 220px;
+  flex-shrink: 0;
+}
+
+.contacts a {
+  color: var(--color-foreground);
+  text-decoration: none;
+}
+
+.full-name {
+  font-weight: 700;
+  font-size: calc(34px * var(--scale-value));
+  line-height: calc(48px * var(--density-value));
+  text-transform: uppercase;
+  color: var(--monochrome-90);
+  letter-spacing: 0.08em;
+  margin-right: -0.08em;
+  text-align: right;
+}
+
+.sub-name {
+  font-weight: 400;
+  font-size: calc(14px * var(--scale-value));
+  line-height: calc(20px * var(--density-value));
+  text-transform: uppercase;
+  color: var(--monochrome-90);
+  letter-spacing: 0.08em;
+  margin-left: 0.08em;
+  text-align: right;
+}
+
+.employment-container {
+  margin-bottom: calc(24px * var(--density-value));
+
+  &.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .w-50 {
+      width: 50%;
+    }
+  }
+}
+
+.list {
+  list-style: disc;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 15px;
+  margin-right: 10px;
+  color: var(--color-neutral);
+
+  &&.in-line {
+    display: flex;
+    flex-wrap: wrap;
+
+    .list-item {
+      width: 120px;
+      height: 20px;
+    }
+  }
+}
+
+.list-item {
+  margin-bottom: calc(4px * var(--density-value));
+
+  &::marker {
+    color: var(--rose-60);
+  }
+}
+
+.employment-date {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: calc(13px * var(--density-value));
+  text-transform: uppercase;
+  color: var(--color-neutral);
+  letter-spacing: -0.04em;
+}
+
+.employer-name {
+  font-weight: 600;
+  font-size: calc(13px * var(--scale-value));
+  line-height: calc(18px * var(--density-value));
+  margin-top: calc(4px * var(--density-value));
+}
+
+.edu-link {
+  color: var(--color-primary) !important;
+  text-underline-offset: 2px;
+}
+
+.skill-title {
+  margin-bottom: calc(1px * var(--density-value));
+}
