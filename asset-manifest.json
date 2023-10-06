@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0a01204d.css",
-    "main.js": "/portfolio/static/js/main.f5a0a844.js",
+    "main.css": "/portfolio/static/css/main.a82ec930.css",
+    "main.js": "/portfolio/static/js/main.0cab7763.js",
     "static/js/787.86e70ff7.chunk.js": "/portfolio/static/js/787.86e70ff7.chunk.js",
     "static/media/Login.gif": "/portfolio/static/media/Login.47f8126be277216b452a.gif",
     "static/media/minigame.png": "/portfolio/static/media/minigame.0e2a6903fbb6f90a30b9.png",
@@ -22,12 +22,12 @@
     "static/media/linkedin-brands.svg": "/portfolio/static/media/linkedin-brands.f40410445e859153f9822ead79adc02e.svg",
     "static/media/darkMode.svg": "/portfolio/static/media/darkMode.3ce68a0a8c8b9ed0593c6736cf77d3e4.svg",
     "static/media/vuejs-brands.svg": "/portfolio/static/media/vuejs-brands.6e2fa8e5aed74d1978f37f77b19db194.svg",
-    "main.0a01204d.css.map": "/portfolio/static/css/main.0a01204d.css.map",
-    "main.f5a0a844.js.map": "/portfolio/static/js/main.f5a0a844.js.map",
+    "main.a82ec930.css.map": "/portfolio/static/css/main.a82ec930.css.map",
+    "main.0cab7763.js.map": "/portfolio/static/js/main.0cab7763.js.map",
     "787.86e70ff7.chunk.js.map": "/portfolio/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a01204d.css",
-    "static/js/main.f5a0a844.js"
+    "static/css/main.a82ec930.css",
+    "static/js/main.0cab7763.js"
   ]
 }
