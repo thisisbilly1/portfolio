@@ -20,6 +20,7 @@ npm start
 
 ## Deploy to Github pages
 ```
+npm build
 npm run deploy
 ```
 
