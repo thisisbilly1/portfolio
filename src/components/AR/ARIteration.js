@@ -28,11 +28,11 @@ const ARIteration = () => {
             <Col xl>
                 <Card>
                     <Card.Body>
-                        <p>After succesfully building a community around a 2D version, we started making a 3D version of Legends Online. This version is by far the most complex and most iterated version of the game.</p>
-                        <p>We migrated all the old systems over. This included the questing system, inventory, combat, bosses, everything.</p>
-                        <p>The server for this one was written in Python. The client was written in Game Maker Studio.</p>
-                        <p>Character modelling and animation were made in Blender. For the collisions both in the client and server, Octrees were used</p>
-                        <p>New work has been started on a new server programmed in Node.JS and instead of using TCP, it now uses WebSocket.</p>
+                        <p>Following the successful establishment of a vibrant community in the 2D version, our development journey took an exciting turn as we ventured into the creation of a 3D rendition of Legends Online. This endeavor marked a significant leap in complexity and iteration, pushing the boundaries of our creative and technical capabilities.</p>
+                        <p>Our commitment to preserving the essence of Legends Online led us to migrate all existing systems seamlessly. This comprehensive overhaul encompassed every facet of the game, from the intricate questing system and inventory management to the adrenaline-pumping combat encounters and formidable boss battles.</p>
+                        <p>The technical underpinning of this ambitious project was a testament to our dedication. The server, responsible for maintaining the game's functionality, was meticulously crafted using Python, while the client, tasked with rendering the immersive 3D world, was developed in Game Maker Studio.</p>
+                        <p>To bring our 3D world to life, we turned to Blender for character modeling and animation. This allowed us to infuse our game with rich, lifelike characters and environments. To ensure seamless interactions within the game, both on the client and server sides, we implemented Octrees for collision detection, enhancing the overall gameplay experience.</p>
+                        <p>Our commitment to innovation and refinement never wanes. Currently, we're embarking on a new chapter in the development of Adventure Road, with a server built using TS and a shift from TCP to WebSocket. These ongoing efforts underscore our dedication to pushing the boundaries of what Adventure Road can become, ensuring that it continues to captivate and engage players in thrilling new ways.</p>
                     </Card.Body>
                 </Card>
             </Col>

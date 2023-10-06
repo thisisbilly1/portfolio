@@ -23,11 +23,20 @@ const Design = ({ should3DRender }) => {
                 <Col>
                     <Card>
                         <Card.Body>
-                            <p><strong>Experience: </strong>To give the player a meaningful experience, the games that I make tell a story. This gives the games direction and meaning, other than game play.</p>
+                            <p>
+                                <strong>Crafting Immersive Experiences: </strong>
+                                My passion in game development lies in creating immersive and meaningful experiences for players. I firmly believe that a game should be more than just gameplay; it should tell a captivating story that guides players through a unique journey.
+                            </p>
 
-                            <p><strong>Balancing: </strong>I like to follow the approach that Nintendor Metriod games take. When the player first starts, their movement through the world and weapons are limited. The game's progression tries to be as non-linear as possible. The player gains items and power-ups through exploration and defeating enemies. As the player gains more power, they may go backwards to earlier parts of the game and find it much easier than the first time. This gives the player a sense of meaningful progression.</p>
+                            <p>
+                                <strong>Game Progression Philosophy: </strong>
+                                I draw inspiration from the approach taken by iconic games like Nintendo's Metroid series. In my game designs, I prioritize a non-linear progression system that fosters player growth and empowerment. At the outset, players are presented with limited abilities and a restricted world, mirroring the journey of the protagonist. As they explore, defeat foes, and uncover hidden treasures, players gradually evolve, gaining new items and power-ups. This design choice allows players to revisit earlier game areas with newfound strength, resulting in a truly meaningful sense of progression and achievement.
+                            </p>
 
-                            <p><strong>Death Worm: </strong>In Adventure Road, there is a giant worm that roamed the desert. As a new player, you are almost powerless to defeat it. As you progress, you will find it easier to defeat this boss.</p>
+                            <p>
+                                <strong>Death Worm Encounter:</strong>
+                                One of the standout moments in my game "Adventure Road" is the encounter with the colossal desert-dwelling Death Worm. When you first confront this formidable foe as a novice player, victory seems nearly impossible. However, as you advance and acquire new skills and equipment, the once-daunting encounter becomes increasingly manageable. This transformation highlights the essence of my design philosophy—delivering an evolving and rewarding gaming experience that keeps players engaged and motivated.
+                            </p>
                         </Card.Body>
                     </Card>
                 </Col>

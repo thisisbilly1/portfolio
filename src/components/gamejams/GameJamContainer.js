@@ -19,12 +19,10 @@ const GameJamContainer = ({ should3DRender }) => {
         <>
             <Card>
                 <p>
-                    I have also participated in many game jams.
-                    This is where a group of programmers and artists are given a theme. They then have a certain amount of time to create a game around that theme.
-                    This is a test of time management, skill, and creativity.
-                    Every time I participated in a game jam, I was using different team sizes and technologies. Depending on what technology you decide to use, you can focus on different parts of game development.
+                    Participation in game jams has been an integral part of my journey in game development. These events typically involve teams of programmers and artists who receive a thematic prompt and must create a game based on that theme within a specified timeframe. Game jams serve as a rigorous test of various skills, including time management, technical proficiency, and creative thinking.
+                    What makes each game jam unique are the different team sizes and technologies used. Depending on the chosen technology stack, the focus of game development can vary significantly, whether it's delving into intricate coding details or crafting artistic designs.
                 </p>
-                <p>For my last game jam that I participated in, I decided to use Game Maker Studio (2019). This allowed me to practice what I learned in calculus 3!</p>
+                <p>In my most recent game jam experience, I decided to work with Game Maker Studio (2019). This choice provided me with a practical opportunity to apply the knowledge I had gained from calculus 3 to enhance my game development skills. It's a testament to the versatility of game development, where even mathematical concepts can find relevance in creating immersive gaming experiences.</p>
             </Card>
             <h3 className="text-center">"Rolling" Theme. My last game jam while in college</h3>
             <Row>

@@ -40,9 +40,12 @@ const LOIteration = () => {
             <Col xl>
                 <Card>
                     <Card.Body>
-                        <p>The first version of Adventure Road (then named Legends Online) was made using a TCP server and client. These were made in Game Maker 8, by YoYoGames.</p>
-                        <p>The server handled the game logic, the character saving, etc etc. The client rendering the world and handling inputs from players.</p>
-                        <p>The game came with NPC combat, resource gathering, an economy, and a robust quest system. </p>
+                        <p>In its nascent form, Adventure Road, originally named Legends Online, took shape through the creation of a TCP server and client. This milestone was achieved using Game Maker 8, a development platform by YoYoGames.</p>
+                        <p>The server served as the backbone of the game, managing essential aspects such as game logic, character data storage, and more. Meanwhile, the client took on the responsibility of rendering the immersive game world and seamlessly processing player inputs.</p>
+                        <p>
+                            Noteworthy Features:
+                            Our early version of the game boasted an array of exciting features, including dynamic NPC combat, resource gathering mechanics, a well-structured in-game economy, and a robust quest system. These elements came together to create an engaging and immersive gaming experience that laid the foundation for the evolution of Adventure Road.
+                        </p>
                     </Card.Body>
                 </Card>
             </Col>

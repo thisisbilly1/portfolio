@@ -28,9 +28,10 @@ const AR = ({ should3DRender }) => {
                     <Card>
                         <Card.Body>
                             <Card.Title>Story</Card.Title>
-                            <p>Adventure Road is an MMORPG that my brother and I imagined when we were still in high school. Inspired by games like Blizzard's WOW, Dungeons and Dragons, we were determined to make our own MMORPG.</p>
-                            <p>Our goal was to create a free online RPG experience that we could play with friends and create a community around. We just wanted to create something that was fun.</p>
-                            <p>This project has has many iterations. Most notably, going from 2D to 3D. The game, and code, have grown with me. I hope I can continue to make people happy through programming.</p>
+                            <p>"Adventure Road" is a passion project that my brother and I conceived during our high school days.
+                                Inspired by iconic titles like Blizzard's World of Warcraft and the immersive storytelling of Dungeons and Dragons, we embarked on a journey to craft our own MMORPG from scratch.</p>
+                            <p>This project has undergone numerous iterations, with one of the most significant transitions being the shift from a 2D to a 3D environment. As the game evolved, so did my coding skills, resulting in a symbiotic relationship where each aspect enriched the other. Through this journey, I've witnessed not only the growth of the game and its code but also my own evolution as a developer.</p>
+                            <p>My aspiration is to continue bringing happiness to players through my programming endeavors. "Adventure Road" is a testament to our dedication to creating a gaming experience that resonates with players and fosters a sense of community, and I look forward to extending that joy to future projects and collaborations.</p>
                         </Card.Body>
                     </Card>
                 </Col>
