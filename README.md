@@ -1,7 +1,6 @@
 ## Intro
 
-This project takes advantage of Three.js and WebGL to make an interactive and engaging website.
-Feel free to use any, or none, of the code for your projects. Just give some credit!
+This project uses Three.js and WebGL to make an interactive and engaging website
 
 ## Demo
 https://thisisbilly1.github.io/portfolio/
